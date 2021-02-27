@@ -1,0 +1,22 @@
+.search-bar-background {
+    background-image: url("../rickmortylogo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  height: 300px;
+    /* padding: 30px; */
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+
+}
+input{
+    width: 100%;
+    background-color: rgb(36, 40, 47);
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    margin-top: 50px;
+}

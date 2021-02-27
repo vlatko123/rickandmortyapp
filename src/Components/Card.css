@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: row;
+   border: none;
+    border-radius: 10px;
+    min-width: 600px;
+    height: 250px;
+    margin: 20px;
+    background-color: rgb(60, 62, 68);
+    color: white;
+   
+    
+}
+.card:hover{
+    transform: scale(1.025);
+}
+
+.img-placeholder img {
+    /* width: 100%; */
+    height: 100%;
+    /* object-fit: contain; */
+    border-radius: 10px 0 0 10px;
+}
+.content {
+    padding: 3%;
+}
